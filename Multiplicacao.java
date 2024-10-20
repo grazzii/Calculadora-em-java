@@ -1,4 +1,4 @@
-//todas as classes com exceção do main, NAO TEM INTERAÇÃO COM USUARIO
+/* //todas as classes com exceção do main, NAO TEM INTERAÇÃO COM USUARIO
 //nao vai ter sout!!!!!!
 
 import java.util.Scanner;
@@ -8,3 +8,4 @@ public class Multiplicacao { //nome da classe
         return numero1 * numero2;
     }
 }
+ */
