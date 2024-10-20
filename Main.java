@@ -21,7 +21,8 @@ public class Main {
         System.out.println("--------Menu---------");
         System.out.println("1- Somar");
         System.out.println("2- Subtrair");
-
+        System.out.println("3- Multiplicação");
+        System.out.println("4- Divisão");
         int menu = sc.nextInt(); 
 
         switch (menu) {
@@ -34,6 +35,13 @@ public class Main {
             case 2:
                 System.out.println("Resultado da subtração: " + calcular.subtrair(numero1, numero2));
                 break;
+            case 3:
+                System.out.println("Resultado da multiplicação: " + calcular.multiplicacao(numero1, numero2));
+                break;
+                case 4:
+                System.out.println("Resultado da divisão: " + calcular.divisao(numero1, numero2));
+                break;
+
             default: //se nenhuma dessas opçoes derem certo use o default
                 System.out.println("Opção inválida.");
                 break;
