@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class teste {
     public static void main (String[] args) {
-        Calculadora calculadora = new Calculadora();
+        Calculator calculator = new Calculator();
         System.out.println("Olá! Digite seu nome: ");
         Scanner sc = new Scanner(System.in);
         String nome = sc.nextLine();
@@ -22,8 +22,20 @@ public class teste {
     int operacao = sc.nextInt();
     switch(operacao) {
         case 1:
-                System.out.println("A soma é: " + calculadora.somar(numero1, numero2));
+                System.out.println("A soma é: " + calculator.somar(numero1, numero2));
                 break;
+
+        case 2:
+                System.out.println("A subtração é: " + calculator.subtrair(numero1, numero2));
+                break;
+        
+        case 3:
+        System.out.println("A multiplicação é: " + calculator.multiplicar(numero1, numero2));
+        break;
+
+        case 4:
+        System.out.println("A divisão é: " + calculator.dividir(numero1, numero2));
+        break;
     }
     }
 }
